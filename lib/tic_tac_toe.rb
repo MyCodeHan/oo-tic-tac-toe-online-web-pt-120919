@@ -1,7 +1,7 @@
 class TicTacToe
 
   def initialize(board = nil)
-    # @board = board || Array.new(9, " ")
+     @board = board || Array.new(9, " ")
   end
 
   def play
@@ -132,7 +132,7 @@ class TicTacToe
       nil
     end
   end
-
+end
 
 
 
